@@ -1,35 +1,29 @@
 body{
   background-color: #f5f5f5;
-}
-
-.whole{
-  text-align: center;
-  margin-top: 1%;
-  margin-left: 24%;
-  margin-right: 24%;
   font-family: 'Raleway', sans-serif;
   color: #2C292C;
+  text-align: center;
 }
 
 .successimg{
   display: block;
   margin: auto;
-  width: 80%;
+  width:400px;
 }
 
 .errorimg{
   display: block;
   margin: auto;
-  width: 75%;
+  width: 460px;
 }
 
 h1{
   margin: 3%;
-  font-size: 3.3rem;
+  font-size: 3.2rem;
 }
 
 .p1{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .btn{
@@ -40,15 +34,15 @@ h1{
 
 @media screen and (max-width: 750px){
 
-  .whole{
-    text-align: center;
+  .errorimg{
+    display: block;
+    width: 85%;
     margin: auto;
-    font-family: 'Raleway', sans-serif;
-    color: #2C292C;
   }
 
-  img{
-    width: 400px;
+  .successimg{
+    display: block;
     margin: auto;
+    width:84%;
   }
 }
